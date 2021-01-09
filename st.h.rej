@@ -1,10 +1,10 @@
 --- st.h
 +++ st.h
-@@ -80,6 +80,7 @@ void die(const char *, ...);
+@@ -81,6 +81,7 @@ void die(const char *, ...);
  void redraw(void);
  void draw(void);
  
-+void newterm(const Arg *);
++void externalpipe(const Arg *);
  void printscreen(const Arg *);
  void printsel(const Arg *);
  void sendbreak(const Arg *);
